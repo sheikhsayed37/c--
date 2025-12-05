@@ -4,7 +4,7 @@ int main()
 {
     char x='a';
     int aschi=x;
-    cout<<aschi<<endl;
+    cout<<aschi;
     
     
 
