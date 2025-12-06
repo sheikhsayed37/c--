@@ -9,6 +9,7 @@ int main()
     {
         cout<<"Even\n";
     }
+    
     else
     {
         cout<< "odd\n";
