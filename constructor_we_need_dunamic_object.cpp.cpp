@@ -7,11 +7,11 @@ class student
     int roll;
     int cls;
     double gpa;
-    student(int r,int c,double g) 
+    student(int roll,int cls,double gpa) 
     {
         this->roll=roll;
-        this->cls=c;
-       this->gpa=g; 
+        this->cls=cls;
+       this->gpa=gpa; 
     }
 };
 
@@ -25,7 +25,7 @@ student *fun()
 int main()
 {
 
-    student *p=fun(); 
+    student *p=fun(); // aibabe fun k call
     cout<<p->roll<<" "<< p->cls<<" "<<p->gpa<<" "<<endl;
    return 0;
 }
