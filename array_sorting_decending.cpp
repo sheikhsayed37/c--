@@ -11,11 +11,10 @@ int main()
  }
 
  sort(a,a+n,greater<int>());     // decending format 
+
  for(int i=0;i<n;i++)
  {
     cout << a[i]<< " ";
  }
-
-
 
 }

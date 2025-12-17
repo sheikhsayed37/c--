@@ -14,6 +14,7 @@ class student
         this->gpa=gpa;
      }
 };
+
 student *fun()
 {
     student *sayed=new student(5,4,6.6);  // fun e sob kico delete hoi jai moloto new er karnone seta 
