@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    
     int x;
     int *p=new int;
     *p=100;
