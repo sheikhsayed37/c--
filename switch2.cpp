@@ -4,6 +4,7 @@ int main()
 {
     int x;
     cin>>x;
+    
     switch(x%2)
     {
       case 0:
